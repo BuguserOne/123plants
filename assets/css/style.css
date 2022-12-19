@@ -1,0 +1,164 @@
+/* ////////// GLOBAL ////////// */
+
+@font-face {
+    font-family:"open_sens";
+    src: url(../fonts/Open_Sens/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family:"frederica_the_great";
+    src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ////////// CLASSES ////////// */
+
+.open_sens_font{
+    font-family:"open_sens";
+}
+.frederica_the_great_font{
+    font-family:"frederica_the_great";
+}
+.white_font{
+    color: white;
+}
+.center_text{
+    text-align: center;
+}
+.button_read_more{
+    text-decoration: none;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 130px;
+    height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.list_header{
+    margin-top: 5px;
+    margin-right: 50px;
+    text-align: end;
+    line-height: 40px;
+    list-style: none;
+}
+
+/* ---------- HEADER ---------- */
+
+header{
+    background: url(../img/Bild.jpeg);
+    background-size: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+/* ---------- LOGO ---------- */
+
+header h1{
+    margin-left: 50px;
+}
+
+/* ---------- ARTICLE ---------- */
+
+header article h2{
+    margin-bottom: 1em;
+}
+header article p{
+    margin-bottom: 1em;
+}
+header article{
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18em;
+}
+header article a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* ---------- NAV ---------- */
+
+header nav ul li a{
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/* ---------- MAIN ---------- */
+
+main article{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 450px;
+}
+main article h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main article div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 10px;;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    width: 140px;
+    border-radius: 5px;
+}
+main article div a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+main article div a:hover{
+    text-decoration: underline;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    background-color: slategrey;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+footer article{
+    margin:30px;
+    width: 600px;
+}
+footer article p{
+    margin-bottom: 20px;
+}
+footer article a{
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+footer article a:hover{
+    background-color: white;
+    color:#1c2336;
+}
+footer nav ul li{
+    display: inline;
+    margin:20px;
+}
+footer nav ul li a{
+    text-decoration: none;
+}
+footer nav ul li a:hover{
+    text-decoration: underline;
+}
+footer nav{
+    text-align: end;
+    margin: 15px;
+}
